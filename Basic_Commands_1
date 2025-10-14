@@ -1,0 +1,10 @@
+Linux Basic Coommands:-
+date-->Show the current date and time
+cal-->show the month's calender
+whoami-->shows who is logged in system
+finger-->Dispaly information about user
+users/id-->Shows users informaton
+uptime-->show current uptime
+who/w-->shows who is in online
+username-->shows username
+man command-->shows manual of command
