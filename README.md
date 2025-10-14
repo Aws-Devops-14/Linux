@@ -4,7 +4,7 @@ It is the core part of many operating System called Linux Distribution(such as U
 
 
 / ---root user, all users can see it
-/root--- root user of home directory, only root user --# --super user
+/root--- root user of home directory, only root user --# --super user, if we want to install any softwares in root user only for that --yum install nano -y
 /home--- home directory, normal uaers can use it --$ means normal user
 
 we have to chage root user to normal user -----exit
