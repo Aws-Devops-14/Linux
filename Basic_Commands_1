@@ -8,3 +8,22 @@ uptime-->show current uptime
 who/w-->shows who is in online
 username-->shows username
 man command-->shows manual of command
+
+File and Directories:-
+ls--> list of all files and directories
+cat > filename-->create a file and allows to write 
+cat filename--> shows content in a file only
+cat >> filename--> append content to a previous file that we used file name in command
+less--> shows page by page
+more--> shows page by page in percent wise
+head--> top 10 line in file
+head -20 filename--> top 20 lines in a file
+tail--> bottom 10 lines in a file
+touch--> create 0 bytes of file
+nano filename--> create file and allows to write edit               ctrl+o--enter--ctrl+x
+vi filename--> create file and allows to write and edit---          esc--enter--:wq
+mkdir -->make directory
+rmdir-->remove directory
+rm -rf-->forcefully remove directory
+rm -rf *-->forcefully remove directory not to retake 
+tree--> shows visually organized dir,folderas and files
