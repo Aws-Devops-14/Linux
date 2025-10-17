@@ -27,3 +27,29 @@ rmdir-->remove directory
 rm -rf-->forcefully remove directory
 rm -rf *-->forcefully remove directory not to retake 
 tree--> shows visually organized dir,folderas and files
+
+Managing Files or Directories:-
+cp-->Copy a file
+cp file1 file2--> Copy from source file to destination file
+cp file1 dir1-->copy file1 in dir1
+mv-->Move a file
+mv file1 file3-->means file1 in whole content move in file3, the file1 will disapear(Rename a file)
+cd ..--> shift to previous working dir
+pwd-->Present working dir
+diff--> between two files in content diff will show
+
+Grep Command:- Global Regular Expression Print
+This command is used to pick up a particular expression from a file and print as a output
+-->grep <patron> file_name
+ls -l | grep <patromn>----> list of files in patron will be identify
+ls -l | grep ^d-----search a d in list of all files
+
+Sed Command:-
+Stream Editor is used to a search a word and replace with another word required to be in the output
+Note:-It will be only modify the output , but there will be no changes in original file
+1.sed 's/old_text/new_text/' filename
+2.sed 's/old_text/new_text/g' filename
+3.sed -i 's/old_text/new_text/' filename
+4.sed -n '5,10p' filename
+5.sed '5,8d' filename
+
