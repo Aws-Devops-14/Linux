@@ -8,6 +8,7 @@ Whenevr a user is created in Linux, These things happen by default
 1.A home directory is created (/home/username)
 2.A UniquemID(UID) and GroupID(GID) are given to user
 3.An entry in /etc/passwd
+
 Syntax for creating user in Linux:
 --> useradd <option> <username>
 1. -u user id
@@ -16,6 +17,25 @@ Syntax for creating user in Linux:
 4.-d home directory
 5. -c Comment
 6.-s Shell
+
+File Types:-
+1.b-->Block File(hard disk, floppy disk)
+2.d-->Directory
+3.c-->Character File(Keyboard,Mouse)
+4.l-->Link file
+5.- -->Normal File
+
+
+
+File Permissions :-
+Permissions Applied in 3 levels:-
+1.Owner or User Level
+2.Group Level
+3.Other Level
+Permissions Applied in 3 ways:-
+1.r-->Read Only
+2.w-->Write/edit/Append/Delete
+3.x-->Execute/Run
 
 Linux Basic Coommands:-
 date-->Show the current date and time
