@@ -8,6 +8,14 @@ Whenevr a user is created in Linux, These things happen by default
 1.A home directory is created (/home/username)
 2.A UniquemID(UID) and GroupID(GID) are given to user
 3.An entry in /etc/passwd
+Syntax for creating user in Linux:
+--> useradd <option> <username>
+1. -u user id
+2.-G Secondary group id
+3.-g Primary group id
+4.-d home directory
+5. -c Comment
+6.-s Shell
 
 Linux Basic Coommands:-
 date-->Show the current date and time
