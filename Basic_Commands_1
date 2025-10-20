@@ -3,6 +3,11 @@ Super User(Root User):-User is the moast powerful User. HE is the Administater. 
 System User:-Users created by the Softwares and Applications. Ex:-ftp/ssh/apache, Home Directory:-/var/ftp, Shell:-/sbin/nologin
 Normal User:-Normal Users are the Users created by the Root User. Ex:-visitor,ec2-User, Home Directory:-/home/username, Shell:-/bash/bin
 
+User Creation:-
+Whenevr a user is created in Linux, These things happen by default
+1.A home directory is created (/home/username)
+2.A UniquemID(UID) and GroupID(GID) are given to user
+3.An entry in /etc/passwd
 
 Linux Basic Coommands:-
 date-->Show the current date and time
