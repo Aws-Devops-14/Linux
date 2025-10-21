@@ -9,6 +9,7 @@ Whenevr a user is created in Linux, These things happen by default
 2.A UniquemID(UID) and GroupID(GID) are given to user
 3.An entry in /etc/passwd
 
+
 Syntax for creating user in Linux:
 --> useradd <option> <username>
 1. -u user id
@@ -17,6 +18,7 @@ Syntax for creating user in Linux:
 4.-d home directory
 5. -c Comment
 6.-s Shell
+7.sudo useradd -m john :- here create a john User in a root User
 
 File Types:-
 1.b-->Block File(hard disk, floppy disk)
@@ -34,12 +36,16 @@ File permissions can be set on files/dir by using thses methods:-
 #chmod [who] [+/-/=] [Permissions] file_name
 #chmod u=rwx g=rw o=r file_name
 #chmod ugo=rwx filename
+#sudo mkdir john
+#sudo chown john:john /home/john:- means change owner from root to john
 
 2.Absolute Method:-
 Instead Symbols using numbers
 1.read=4
 3.write=2
 4.execute=1
+#chmod--> Change Mode
+#chown-->Change Owner
 #chmod 764 <file_name>
 #chmod 777 <filename>
 
