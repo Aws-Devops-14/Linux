@@ -25,6 +25,24 @@ File Types:-
 4.l-->Link file
 5.- -->Normal File
 
+File Permissions:-
+1.r -->Open the file
+2.w -->Writr,edit,append,delete file
+3.x -->To run a command/Shell Script
+File permissions can be set on files/dir by using thses methods:-
+1.Symbolic Method(ugo):-
+#chmod [who] [+/-/=] [Permissions] file_name
+#chmod u=rwx g=rw o=r file_name
+#chmod ugo=rwx filename
+
+2.Absolute Method:-
+Instead Symbols using numbers
+1.read=4
+3.write=2
+4.execute=1
+#chmod 764 <file_name>
+#chmod 777 <filename>
+
 
 
 File Permissions :-
