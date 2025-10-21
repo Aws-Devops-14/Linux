@@ -71,6 +71,7 @@ uptime-->show current uptime
 who/w-->shows who is in online
 username-->shows username
 man command-->shows manual of command
+file--> File command tells the what kind of file 
 
 File and Directories:-
 ls--> list of all files and directories
