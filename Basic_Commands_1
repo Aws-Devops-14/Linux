@@ -18,7 +18,8 @@ Syntax for creating user in Linux:
 4.-d home directory
 5. -c Comment
 6.-s Shell
-7.sudo useradd -m john :- here create a john User in a root User
+7.init 6 --> is restart the system
+8.sudo useradd -m john :- here create a john User in a root User
 
 Software Managenment:-
 yum is the primary tool for getting,updating,installing,querying and managing software packages in Linux.
@@ -38,6 +39,7 @@ Linux distribution of Ubuntu in use
 3.sudo apt update && sudo apt upgrade
 4.apt list
 5.apt-cache policy
+6.wget--web get download files from the internet
 
 System Information:-
 1.history-->Shows all commands executed by user
