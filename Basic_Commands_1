@@ -20,6 +20,25 @@ Syntax for creating user in Linux:
 6.-s Shell
 7.sudo useradd -m john :- here create a john User in a root User
 
+Software Managenment:-
+yum is the primary tool for getting,updating,installing,querying and managing software packages in Linux.
+We can use this yum in Red-hat linux distribution only.
+1.yum install <package name>
+2.yum remove <package name>
+3.yum update <package name>
+4.yum info <package name>
+5.yum list available
+6.yum list installed
+butttttttttttttttttt
+
+Linux distribution of Ubuntu in use
+
+1.sudo apt install package
+2.sudo apt remove package
+3.sudo apt update && sudo apt upgrade
+4.apt list
+5.apt-cache policy
+
 System Information:-
 1.history-->Shows all commands executed by user
 2.free-->Free memory of a server
