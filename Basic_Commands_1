@@ -20,6 +20,16 @@ Syntax for creating user in Linux:
 6.-s Shell
 7.sudo useradd -m john :- here create a john User in a root User
 
+System Information:-
+1.history-->Shows all commands executed by user
+2.free-->Free memory of a server
+3.cat /prc/meminfo-->memory information
+4.cat /prc/cpuinfo-->Cpu Information
+5.uanme -a-->Shows kernel info
+6.du-->Show directoryspace usage
+7.whereis--> Show possible location of app
+8.which-->Show which app will be run by default 
+
 File Types:-
 1.b-->Block File(hard disk, floppy disk)
 2.d-->Directory
