@@ -148,3 +148,21 @@ Note:-It will be only modify the output , but there will be no changes in origin
 4.sed -n '5,10p' filename
 5.sed '5,8d' filename
 
+Networking:-
+1.hostname-->List hostname of the server
+2.ping google.com-->checks the network connection between your Linux system and the Google server.
+3.wget-->web get-->download files, software, or packages from the internet directly into your Linux system using the command line.
+4.ifconfig-->list IP address(es) of the server
+5.telnet localhost 22-->specific port number is working or not.
+6.curl-->download, upload, and communicate with web APIs
+7.netstat -tulpn = Shows all running network services and their ports, along with which program is using each port.
+
+Port Numbers:-
+Port numbers        service
+  21                 FTP
+  22                 SSH
+  23                 TELNET
+  25                 SMTP
+  53                 DNS
+  80                 HTT
+  443                HTTP
