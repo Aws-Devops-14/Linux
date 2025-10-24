@@ -4,3 +4,38 @@ This is the Top-moast directory in Linux. All other directories and files under 
                                          ----->    " / "    <------
                    bin  boot  etc   init  lib.usr-is-merged  lost+found  mnt  proc  run   sbin.usr-is-merged  srv  tmp  var
                          bin.usr-is-merged  dev   home  lib   lib64  media  opt  root  sbin  snap   sys
+
+Linux File System Structure is a Hierarical arrangement of directories in that organize files based on the purpose and function.
+When a application installed in linux , the files are distributed across different directories based on the Filesystem Hierarchy Standard (FHS).
+
+/bin → contains essential user command binaries.
+
+/sbin → contains system administration binaries.
+
+/etc → holds configuration files for applications and services.
+
+/var → stores variable data such as logs, databases, and caches.
+
+/usr → contains user-related programs and shared libraries.
+
+/lib → includes shared library files needed by system programs.
+
+/home → stores personal files for each user.
+
+                   /
+├─ bin     → basic commands
+├─ sbin    → system commands
+├─ etc     → configuration
+├─ home    → users
+├─ root    → root user home
+├─ var     → logs, variable data
+├─ tmp     → temp files
+├─ dev     → devices
+├─ proc    → processes info
+├─ boot    → boot loader, kernel
+├─ usr     → user programs
+├─ opt     → optional software
+├─ media   → USB, CD
+├─ mnt     → temporary mount
+└─ srv     → service data
+
