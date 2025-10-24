@@ -166,3 +166,15 @@ Port numbers        service
   53                 DNS
   80                 HTT
   443                HTTP
+
+Services:-
+Service:- It controls the stopping and starting of services.
+chkconfig:-It controls the which service are set to start on boot.
+1.service <name of the service> start
+2.service <name of the service> stop
+3.service <name of the service> status
+4.service <name of the service> reload
+5.service <name of the service> restart
+6.chkconfig --list---> To check the list of services available
+7.chkconfig <service> on-->to make the service available after restart
+8.chkconfig <service> off-->to make the service unavailable after restart
