@@ -1,0 +1,6 @@
+"/"  is a Root Directory
+This is the Top-moast directory in Linux. All other directories and files under this root Directory only.
+
+                                         ----->    " / "    <------
+                   bin  boot  etc   init  lib.usr-is-merged  lost+found  mnt  proc  run   sbin.usr-is-merged  srv  tmp  var
+                         bin.usr-is-merged  dev   home  lib   lib64  media  opt  root  sbin  snap   sys
