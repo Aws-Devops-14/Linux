@@ -9,14 +9,13 @@ Whenevr a user is created in Linux, These things happen by default
 2.A UniquemID(UID) and GroupID(GID) are given to user
 3.An entry in /etc/passwd
 
-
 Syntax for creating user in Linux:
 --> useradd <option> <username>
-1. -u user id
+1.-u user id
 2.-G Secondary group id
 3.-g Primary group id
 4.-d home directory
-5. -c Comment
+5.-c Comment
 6.-s Shell
 7.init 6 --> is restart the system
 8.sudo useradd -m john :- here create a john User in a root User
