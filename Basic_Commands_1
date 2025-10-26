@@ -67,6 +67,10 @@ File permissions can be set on files/dir by using thses methods:-
 #chmod [who] [+/-/=] [Permissions] file_name
 #chmod u=rwx g=rw o=r file_name
 #chmod ugo=rwx filename
+---> in changingn of GID and USID
+A unique home directory → /home/john
+A private group → group john with GID = UID
+✅ Makes file permissions simpler and safer (no conflict between users).
 #sudo mkdir john
 #sudo chown john:john /home/john:- means change owner from root to john
 
