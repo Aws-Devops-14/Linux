@@ -1,7 +1,7 @@
 
 User Management:-
 Super User(Root User):-User is the moast powerful User. HE is the Administater. Ex:-Root, Home Directory:-/root, Shell:-/bash/bin
-System User:-Users created by the Softwares and Applications. Ex:-ftp/ssh/apache, Home Directory:-/var/ftp, Shell:-/sbin/nologin
+System User:-Users created by the Softwares and Applications.Created for services or background processes (like mysql, www-data) Ex:-ftp/ssh/apache, Home Directory:-/var/ftp, Shell:-/sbin/nologin
 Normal User:-Normal Users are the Users created by the Root User. Ex:-visitor,ec2-User, Home Directory:-/home/username, Shell:-/bash/bin
 User:-	A person or process that uses the system (e.g., root, john, ubuntu)
 Group:- A collection of users with similar permissions
