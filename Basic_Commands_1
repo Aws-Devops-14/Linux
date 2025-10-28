@@ -75,7 +75,7 @@ A private group → group john with GID = UID
 ✅ Makes file permissions simpler and safer (no conflict between users).
 #sudo mkdir john
 #sudo chown john:john /home/john:- means change owner from root to john
-#groups--> shows which groups a user belongs to.
+#groups--> shows which groups a user belongs to.(palemupendra adm dialout cdrom floppy sudo audio dip video plugdev users netdev libvirt docker)
 
 2.Absolute Method:-
 Instead Symbols using numbers
