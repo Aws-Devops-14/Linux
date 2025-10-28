@@ -48,7 +48,7 @@ System Information:-
 2.free-->Free memory of a server
 3.cat /prc/meminfo-->memory information
 4.cat /prc/cpuinfo-->Cpu Information
-5.uanme -a-->Shows kernel info
+5.uanme -a-->Shows System & kernel info (Unix name)
 6.du-->Show directoryspace usage
 7.whereis--> Show possible location of app
 8.which-->Show which app will be run by default 
