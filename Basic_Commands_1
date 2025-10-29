@@ -159,10 +159,11 @@ Networking:-
 1.hostname-->List hostname of the server
 2.ping google.com-->checks the network connection between your Linux system and the Google server.
 3.wget-->web get-->download files, software, or packages from the internet directly into your Linux system using the command line.
-4.ifconfig-->list IP address(es) of the server
+4.ifconfig-->list IP address(es) of the server /////   ip addr show --> this command also use instead of config
 5.telnet localhost 22-->specific port number is working or not.
 6.curl-->download, upload, and communicate with web APIs
 7.netstat -tulpn = Shows all running network services and their ports, along with which program is using each port.
+----> Ping tests connectivity, Telnet tests specific port accessibility, Netstat shows active ports and services. <----
 
 Port Numbers:-
 Port numbers        service
