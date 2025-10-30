@@ -186,3 +186,17 @@ chkconfig:-It controls the which service are set to start on boot.
 6.chkconfig --list---> To check the list of services available
 7.chkconfig <service> on-->to make the service available after restart
 8.chkconfig <service> off-->to make the service unavailable after restart
+
+Archive & Compression:-
+1.tar--->(tar archive) archieve files and folders in a single file without compression by default.
+-c	Create archive
+-v	Verbose (show files while archiving)
+-f	Specify archive file name
+-z Compress with gzip 
+2.tar -cvf backup file22 file4 file55 file55.gz---> archieve these files in backup file
+3.tar -cvf backup.tar backup---> archieve backup file in backup.tar file
+4.tar -xvf backup---> Extract files from backup file
+5. tar -xvf backup.tar---> extract file from backup.tar
+6.gzip----> It compresses single files and creates a .gz file, helping save storage space and speed up file transfer.
+7. gzip -c file55 > file55.gz---->This command compresses the file file55 and writes the compressed output to a new file named file55.gz, without deleting the original file.
+8.
