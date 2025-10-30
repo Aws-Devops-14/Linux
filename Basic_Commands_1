@@ -197,6 +197,9 @@ Archive & Compression:-
 3.tar -cvf backup.tar backup---> archieve backup file in backup.tar file
 4.tar -xvf backup---> Extract files from backup file
 5. tar -xvf backup.tar---> extract file from backup.tar
-6.gzip----> It compresses single files and creates a .gz file, helping save storage space and speed up file transfer.
+6.gzip,zip----> It compresses single files and creates a .gz file, helping save storage space and speed up file transfer.
 7. gzip -c file55 > file55.gz---->This command compresses the file file55 and writes the compressed output to a new file named file55.gz, without deleting the original file.
-8.
+8.gunzip,unzip--->gunzip is a Linux command used to decompress .gz files and restore them to their original form.
+9.bzip2 <filename>---> bzip2 is a compression tool used to compress files with better compression than gzip, but slower.
+10.xz <filename>-->compresses files using the LZMA algorithm, offering even higher compression than gzip & bzip2.
+11.dd --->dd is a powerful data copying and conversion tool used for disk cloning, backup, OS writing, and data recovery.
