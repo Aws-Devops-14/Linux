@@ -50,8 +50,8 @@ System Information:-
 4.cat /prc/cpuinfo-->Cpu Information
 5.uanme -a-->Shows System & kernel info (Unix name)
 6.du-->Show directoryspace usage
-7.whereis--> Show possible location of app
-8.which-->Show which app will be run by default 
+7.whereis mysql--> Show possible location of app
+8.which mysql-->Show which app will be run by default 
 
 File Types:-
 1.b-->Block File(hard disk, floppy disk)
@@ -75,6 +75,7 @@ A private group → group john with GID = UID
 ✅ Makes file permissions simpler and safer (no conflict between users).
 #sudo mkdir john
 #sudo chown john:john /home/john:- means change owner from root to john
+#sudo userdel <username>:- to delete user
 #groups--> shows which groups a user belongs to.(palemupendra adm dialout cdrom floppy sudo audio dip video plugdev users netdev libvirt docker)
 
 2.Absolute Method:-
